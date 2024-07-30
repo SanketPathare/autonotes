@@ -53,8 +53,8 @@ module.exports = {
   },
   output: {
     filename: "bundle.js",
-    path: path.resolve(__dirname, 'build'),
-    clean: true
+    path: path.resolve(__dirname, "dist"),
+    
   },
   devServer: {
     static: {
